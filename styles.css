@@ -37,7 +37,8 @@
     background-image: url(elements/production.jpg);
 }
 
-.mining_lifecycle .active, .accordion:hover {
+.mining_lifecycle .active,
+.accordion:hover {
     filter: grayscale(0);
     /* z-index: 99999; */
 }
@@ -68,6 +69,12 @@
 
 /* Arrow separator for the Mining Lifecycle */
 .mining_lifecycle .arrow_down {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.mining_lifecycle img {
     width: 59px;
     margin: 10px 0;
 }
