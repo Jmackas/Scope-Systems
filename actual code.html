@@ -1,0 +1,103 @@
+<link href="styles.css" rel="stylesheet">
+<link href="https://www.scopesystems.com.au/wp-content/cache/autoptimize/css/autoptimize_539dc63c1d36088fa5f2752f5b441937.css"
+    rel="stylesheet">
+
+
+<div class="mining_lifecycle">
+    <!-- Exploration -->
+    <button class="accordion exploration">Exploration</button>
+    <div class="droppanel">
+            <h2>Summary</h2>
+            <p>The exploration stage of the Mining Lifecycle consists of the initial analysis of prospective territory,
+                determining if it contains a worthwhile amount of minerals to be mined. The analysis of the territory can
+                take between two to eight years and can cost up to $15 million – a value which may yield little return. A
+                feasibility report will need to be generated from the geologists, determining if the prospective site has
+                mining potential.</p>
+
+        <p><a href="#" target="_blank" class="button">Read More</a></p>
+    </div>
+
+    <!-- Arrow separator -->
+    <div>
+        <img src="elements/arrow_down.png" class="arrow_down" />
+    </div>
+    <!-- Development -->
+    <button class="accordion development">Development</button>
+    <div class="droppanel">
+        <p>Development</p>
+        <p><a href="#" class="button">Read More</a></p>
+    </div>
+
+    <!-- Arrow separator -->
+    <div style="margin: auto; width: 50%; text-align: center;">
+        <img src="elements/arrow_down.png" class="arrow_down" />
+    </div>
+
+    <!-- Construction -->
+    <button class="accordion construction">Construction</button>
+    <div class="droppanel">
+        <p>Construction</p>
+        <p><a href="#" class="button">Read More</a></p>
+    </div>
+
+    <!-- Arrow separator -->
+    <div style="margin: auto; width: 100%; text-align: right;">
+        <img src="elements/arrow_down.png" class="arrow_down" />
+    </div>
+
+    <!-- Production -->
+    <button class="accordion production">Production</button>
+    <div class="droppanel">
+        <p>Production</p>
+        <p><a href="#" class="button">Read More</a></p>
+    </div>
+
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            let droppanel = this.nextElementSibling;
+            if (droppanel.style.maxHeight) {
+                droppanel.style.maxHeight = null;
+                /*
+                                let borderBottom = document.querySelectorAll(".droppanel");
+                                borderBottom[0].style.borderBottom = "1px solid #7777773b";
+                                borderBottom[1].style.borderBottom = "1px solid #7777773b";
+                                borderBottom[2].style.borderBottom = "1px solid #7777773b";
+                                borderBottom[3].style.borderBottom = "1px solid #7777773b";
+                */
+
+            } else {
+                droppanel.style.maxHeight = droppanel.scrollHeight + "px";
+
+
+
+
+            }
+        });
+    }
+</script>
+
+
+<!-- DELETE THESE STYLES -->
+<style>
+    body {
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+        font-family: calibri;
+    }
+
+    .button {
+        font-family: calibri;
+    }
+
+    h2 {
+        font-family: calibri;
+    }
+</style>

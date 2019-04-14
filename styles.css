@@ -1,0 +1,73 @@
+/* Accordion header */
+.mining_lifecycle .accordion {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-size: 250%;
+    text-shadow: 1px 2px 1px black;
+    filter: grayscale(100%);
+    text-align: left;
+    outline: none;
+    height: 150px;
+    transition: 0.4s;
+    border: 1px solid #777;
+    background-position: center;
+    background-size: cover;
+}
+
+/* "Exploration" specific */
+.mining_lifecycle .exploration {
+    background-image: url(elements/exploration.jpg);
+
+}
+
+/* "Development" specific */
+.mining_lifecycle .development {
+    background-image: url(elements/development.jpg);
+}
+
+/* "Construction" specific */
+.mining_lifecycle .construction {
+    background-image: url(elements/construction.jpg);
+}
+
+/* "Production" specific */
+.mining_lifecycle .production {
+    background-image: url(elements/production.jpg);
+}
+
+.mining_lifecycle .active, .accordion:hover {
+    filter: grayscale(0);
+    /* z-index: 99999; */
+}
+
+/*
+.mining_lifecycle .accordion:hover:after {
+    content: "+ Click to Expand/Contract";
+    font-size: 12px;
+    text-shadow: initial;
+    position: absolute;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    left: 0;
+}
+*/
+.mining_lifecycle .droppanel {
+    padding: 5px 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-right: 1px solid #7777773b;
+    border-left: 1px solid #7777773b;
+    border-bottom: 1px solid #7777773b;
+    /* Hacky method of hiding the margin */
+    margin-bottom: -1px;
+}
+
+/* Arrow separator for the Mining Lifecycle */
+.mining_lifecycle .arrow_down {
+    width: 59px;
+    margin: 10px 0;
+}
