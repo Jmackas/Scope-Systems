@@ -1,3 +1,9 @@
+/* Diagram header (pseudo h1) */
+.diagram_header {
+    font-size: 300%;
+    margin: 24px 0;
+}
+
 /* Accordion header */
 .mining_lifecycle .accordion {
     color: white;
@@ -19,7 +25,6 @@
 /* "Exploration" specific */
 .mining_lifecycle .exploration {
     background-image: url(elements/exploration.jpg);
-
 }
 
 /* "Development" specific */
@@ -37,8 +42,7 @@
     background-image: url(elements/production.jpg);
 }
 
-.mining_lifecycle .active,
-.accordion:hover {
+.mining_lifecycle .active, .accordion:hover {
     filter: grayscale(0);
     /* z-index: 99999; */
 }
