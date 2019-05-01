@@ -5,7 +5,7 @@ function general() {
     let targettedNode = document.querySelector("body");
 
     // Insert the stylesheet
-    targettedNode.insertAdjacentHTML('beforeend', '<link href="https://jmackas.github.io/Scope-Systems/mockup_injection/styles.css" rel="stylesheet"');
+    targettedNode.insertAdjacentHTML('beforeend', '<link href="https://jmackas.github.io/Scope-Systems/mockup_injection/styles.css" rel="stylesheet">');
 }
 
 function MiningLifeCycle() {
