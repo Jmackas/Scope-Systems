@@ -1,4 +1,12 @@
+general();
 MiningLifeCycle();
+
+function general() {
+    let targettedNode = document.querySelector("body");
+
+    // Insert the stylesheet
+    targettedNode.insertAdjacentHTML('beforeend', '<link href="https://jmackas.github.io/Scope-Systems/mockup_injection/styles.css" rel="stylesheet"');
+}
 
 function MiningLifeCycle() {
     document.querySelector("#hotspot-5781").remove();
@@ -9,6 +17,6 @@ function MiningLifeCycle() {
     targettedNode.insertAdjacentHTML('beforeend', '<iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>');
     
     // Insert the iframe styling
-    targettedNode.insertAdjacentHTML('beforeend', 'iframe.lifecycle_accordion {width: 100%;height: 1500px;}');
+    targettedNode.insertAdjacentHTML('beforeend', '<style>iframe.lifecycle_accordion {width: 100%;height: 1500px;}</style>');
 
 }
