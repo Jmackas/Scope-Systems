@@ -15,8 +15,5 @@ function MiningLifeCycle() {
 
     // Insert the button for downloading the button
     targettedNode.insertAdjacentHTML('beforeend', '<iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>');
-    
-    // Insert the iframe styling
-    targettedNode.insertAdjacentHTML('beforeend', '<style>');
 
 }
