@@ -13,7 +13,7 @@ function MiningLifeCycle() {
     if (window.location.href == "https://www.scopesystems.com.au/industries/mining-software/") {
         document.querySelector("#hotspot-5781").remove();
 
-        let targettedNode = document.querySelector(".wrap").innerHTML = '<iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>';
+        let targettedNode = document.querySelector(".wrap").innerHTML = '<h2>Mining Software for the Mining Industry</h2><p>The mining industry has always had to manage a certain level of volatility, from fluctuating ore prices to high labour costs and the uncertainty of what is actually in the ground, however as we move in to more uncertain times, raising capital and moving an asset through to production has never been harder.</p><p>Over 22 years’ experience delivering mining business management software solutions, Scope Systems understand these issues and with this&nbsp; knowledge have developed a scalable solution to support you through each phase of your entire mine life-cycle.</p><h3>The Mining Life-cycle</h3><p>Scope Systems have utilised decades of experience in the mining sector to select solutions to meet challenges at every stage of the mining life-cycle.</p><p>Click on the diagram to expand out information.</p><iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>';
 
     }
 
