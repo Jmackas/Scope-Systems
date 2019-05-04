@@ -23,13 +23,17 @@ function MiningLifeCycle() {
 
 function explorationStage() {
     if (window.location.href == "https://www.scopesystems.com.au/single-touch-payroll-scopetalk/") {
-        let targettedNode = document.querySelector(".title .blog");
-        targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/exploration_darker.jpg");}</style>');
+        // Styles of the stage
+        let targettedNodeTwo = document.querySelector("body");
+        targettedNodeTwo.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/exploration_darker.jpg");}</style>');
         
-        document.querySelector("blog-content").remove();
+        // Header of the stage
 
-        let targettedNodeTwo = document.querySelector(".wrap");
-        targettedNodeTwo.insertAdjacentHTML('beforeend', '<p>Test</p>');
+        // Content of the stage
+        document.querySelector("#post-5163 .blog-content").innerHTML = '';
+
+        let targettedNodeThree = document.querySelector("#post-5163 .blog-content");
+        targettedNodeThree.insertAdjacentHTML('beforeend', '<p>Test</p>');
     }
 
 }
