@@ -25,6 +25,11 @@ function explorationStage() {
     if (window.location.href == "https://www.scopesystems.com.au/single-touch-payroll-scopetalk/") {
         let targettedNode = document.querySelector(".title .blog");
         targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/exploration_darker.jpg");}</style>');
+        
+        document.querySelector("blog-content").remove();
+
+        let targettedNodeTwo = document.querySelector(".wrap");
+        targettedNodeTwo.insertAdjacentHTML('beforeend', '<p>Test</p>');
     }
 
 }
