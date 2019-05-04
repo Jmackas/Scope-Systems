@@ -1,3 +1,7 @@
+body {
+    width: 90%;
+}
+
 /* Diagram header (pseudo h1) */
 .diagram_header {
     font-size: 300%;
