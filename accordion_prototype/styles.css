@@ -65,7 +65,7 @@ body {
 }
 */
 .mining_lifecycle .droppanel {
-    padding: 0 18px;
+    padding: 4px 18px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
