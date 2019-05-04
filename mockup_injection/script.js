@@ -13,10 +13,8 @@ function MiningLifeCycle() {
     if (window.location.href == "https://www.scopesystems.com.au/industries/mining-software/") {
         document.querySelector("#hotspot-5781").remove();
 
-        let targettedNode = document.querySelector(".wrap");
+        let targettedNode = document.querySelector(".wrap").innerHTML = '<iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>';
 
-        // Insert the button for downloading the button
-        targettedNode.insertAdjacentHTML('beforeend', '<iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>');
     }
 
 }
@@ -28,7 +26,9 @@ function explorationStage() {
         targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/exploration_darker.jpg");}</style>');
         
         // Header of the stage
+        document.querySelector('[typeof="v:Breadcrumb"]').innerHTML = 'Mining Lifecycle / <strong>Exploration</strong>';
         document.querySelector(".mainTitle").innerHTML = 'Exploration Stage';
+        document.querySelector('[datetime="2018-02-14T09:38:54+00:00"]').innerHTML = '';
 
 
         // Content of the stage
