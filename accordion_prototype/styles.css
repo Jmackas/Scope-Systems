@@ -27,6 +27,13 @@ body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 375px) {
+    .mining_lifecycle .accordion {
+       font-size: 25px;
+    }
+}
+
+
 /* "Exploration" specific */
 .mining_lifecycle .exploration {
     background-image: url(elements/exploration.jpg);
