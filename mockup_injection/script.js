@@ -63,7 +63,7 @@ function constructionStage() {
     if (window.location.href == "https://www.scopesystems.com.au/21-tips-tricks-qlik-scopetalk/") {
         // Styles of the stage
         let targettedNode = document.querySelector("body");
-        targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/construction_darker.jpg");}</style>');
+        targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/construction_darker.jpg");#wa_table td {border: 1px solid #777;}}</style>');
 
         // Header of the stage
         document.querySelector('[typeof="v:Breadcrumb"]').innerHTML = 'Mining Lifecycle / <strong>Construction</strong>';
