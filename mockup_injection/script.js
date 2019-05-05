@@ -66,13 +66,13 @@ function constructionStage() {
         targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/construction_darker.jpg");}</style>');
 
         // Header of the stage
-        document.querySelector('[typeof="v:Breadcrumb"]').innerHTML = 'Mining Lifecycle / <strong>Development</strong>';
-        document.querySelector(".mainTitle").innerHTML = 'Development Stage';
-        document.querySelector('[datetime="2018-05-14T10:45:33+00:00"]').innerHTML = '';
+        document.querySelector('[typeof="v:Breadcrumb"]').innerHTML = 'Mining Lifecycle / <strong>Construction</strong>';
+        document.querySelector(".mainTitle").innerHTML = 'Construction Stage';
+        document.querySelector('[datetime="2017-11-15T11:42:27+00:00"]').innerHTML = '';
 
         // Content of the stage
-        document.querySelector("#post-5331 .blog-content").innerHTML = '';
-        document.querySelector("#post-5331 .blog-content").innerHTML = '';
+        document.querySelector("#post-5002 .blog-content").innerHTML = '';
+        document.querySelector("#post-5002 .blog-content").innerHTML = 'test';
 
     }
 }
