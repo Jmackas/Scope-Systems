@@ -33,6 +33,13 @@ iframe.lifecycle_accordion {
     padding: 0 200px;
 }
 
+/* Stronger colour for the menu items */
+.nav > li > a {
+    background: #2257A4;
+}
+
+
+    
 
 /* Removal of the border radiuses */
 .btn,
