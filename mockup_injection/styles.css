@@ -34,10 +34,11 @@ iframe.lifecycle_accordion {
 }
 
 
-/* Border radius none */
+/* Removal of the border radiuses */
 a.button,
 a.button.login,
 .nav>li>a,
-.hero .slide {
+.hero .slide,
+a.r-tabs-anchor {
     border-radius: 0;
 }
