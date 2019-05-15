@@ -35,8 +35,10 @@ iframe.lifecycle_accordion {
 
 
 /* Removal of the border radiuses */
-a.button,
-a.button.login,
+.btn,
+a.btn,
+.button,
+.hs-button,
 .nav>li>a,
 .hero .slide,
 a.r-tabs-anchor {
