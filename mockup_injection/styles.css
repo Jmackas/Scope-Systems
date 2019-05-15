@@ -1,5 +1,5 @@
 /* Font embedded */
-@import url('https://fonts.googleapis.com/css?family=Montserrat'); 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
@@ -7,7 +7,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     /* Font for the headers */
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -26,4 +31,13 @@ iframe.lifecycle_accordion {
 /* Further content padding */
 .content .wrap {
     padding: 0 200px;
-    }
+}
+
+
+/* Border radius none */
+a.button,
+a.button.login,
+.nav>li>a,
+.hero .slide {
+    border-radius: 0;
+}
