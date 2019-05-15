@@ -38,6 +38,10 @@ iframe.lifecycle_accordion {
     background: #2257A4;
 }
 
+/* Stronger hover colour for the menu items */
+.nav > li:hover > a, .nav > li > ul.dropdown-menu {
+    background: #0b4ba8;
+}
 
     
 
