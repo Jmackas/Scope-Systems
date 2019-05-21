@@ -33,6 +33,13 @@ iframe.lifecycle_accordion {
     padding: 0 200px;
 }
 
+/* Media query */
+@media only screen and (max-width: 898px) {
+    .content .wrap {
+        padding: 20px;
+    }
+}
+
 /* Stronger colour for the menu items */
 .nav > li > a {
     background: #2257A4;
@@ -42,6 +49,7 @@ iframe.lifecycle_accordion {
 .nav > li:hover > a, .nav > li > ul.dropdown-menu {
     background: #0b4ba8;
 }
+
 
     
 
