@@ -50,8 +50,10 @@ iframe.lifecycle_accordion {
     background: #0b4ba8;
 }
 
-
-    
+/* Ensure word wrap isn't impacted by long words */
+.blog-content {
+    word-wrap: break-word;
+}
 
 /* Removal of the border radiuses */
 .btn,
