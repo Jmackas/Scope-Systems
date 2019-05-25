@@ -90,6 +90,9 @@ function constructionStage() {
 
 function productionStage() {
     if (window.location.href == "https://www.scopesystems.com.au/converged-vs-hyperconverged-infrastructure-scopetalk/") {
+        // Added background image styles
+        document.querySelector('body').insertAdjacentHTML('beforeend', '<style>.title.blog {background-position: right !important;}</style>');
+
         // Styles of the stage
         let targettedNode = document.querySelector("body");
         targettedNode.insertAdjacentHTML('beforeend', '<style>.title.blog {background-image: url("https://jmackas.github.io/Scope-Systems/mockup_injection/images/production_darker.jpg");}</style>');
