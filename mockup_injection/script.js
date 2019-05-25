@@ -15,7 +15,7 @@ function general() {
     document.querySelector("[aria-describedby='slick-slide00'] .slide-content h1").innerHTML = 'Comprehensive Mining Solutions Available';
     document.querySelector("[aria-describedby='slick-slide00'] .slide-content p").innerHTML = 'Rest assured, our PLODtrack software can analyse, retrieve, and provide extensive outputs that can enhance your mining capabilities.';
     document.querySelector("[aria-describedby='slick-slide00']").style.backgroundImage = 'url("https://jmackas.github.io/Scope-Systems/mockup_injection/sample_images/main_image.png")';
-    document.querySelector("[aria-describedby='slick-slide00'] [href='contact-us']").innerHTML = ' ';
+    document.querySelector("[aria-describedby='slick-slide00'] [href='contact-us']").innerHTML = '<span></span>';
     document.querySelector("[aria-describedby='slick-slide00'] .slide-content").insertAdjacentHTML('beforeend', '<a href="https://www.scopesystems.com.au/industries/mining-software/" class="cta" tabindex="0"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-caret-right fa-stack-1x fa-inverse"></i> </span>Find out how we can help</a>');
 }
 
