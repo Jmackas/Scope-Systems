@@ -10,6 +10,12 @@ function general() {
 
     // Insert the stylesheet
     targettedNode.insertAdjacentHTML('beforeend', '<link href="https://jmackas.github.io/Scope-Systems/mockup_injection/styles.css" rel="stylesheet">');
+
+    // Insert front page slider content
+    document.querySelector("[aria-describedby='slick-slide00'] .slide-content h1").innerHTML = 'Comprehensive Mining Solutions Available';
+    document.querySelector("[aria-describedby='slick-slide00'] .slide-content p").innerHTML = 'Rest assured, our Plodtrack software can analyse, retrieve, and provide extensive outputs that can enhance your mining capabilities.';
+    document.querySelector("[aria-describedby='slick-slide00']").style.backgroundImage = 'url("https://jmackas.github.io/Scope-Systems/mockup_injection/sample_images/main_image.png")';
+    document.querySelector("[aria-describedby='slick-slide00'] [href='contact-us']").innerHTML = '<a href="#" class="cta">Find out more</a>';
 }
 
 function MiningLifeCycle() {
@@ -17,7 +23,6 @@ function MiningLifeCycle() {
         document.querySelector("#hotspot-5781").remove();
 
         let targettedNode = document.querySelector(".wrap").innerHTML = '<h2>Mining Software for the Mining Industry</h2><p>The mining industry has always had to manage a certain level of volatility, from fluctuating ore prices to high labour costs and the uncertainty of what is actually in the ground, however as we move in to more uncertain times, raising capital and moving an asset through to production has never been harder.</p><p>Over 22 years’ experience delivering mining business management software solutions, Scope Systems understand these issues and with this&nbsp; knowledge have developed a scalable solution to support you through each phase of your entire mine life-cycle.</p><h3>The Mining Life-cycle</h3><p>Scope Systems have utilised decades of experience in the mining sector to select solutions to meet challenges at every stage of the mining life-cycle.</p><p>Click on the diagram to expand out information.</p><iframe class="lifecycle_accordion" src="https://jmackas.github.io/Scope-Systems/accordion_prototype/"></iframe>';
-
     }
 
 }
